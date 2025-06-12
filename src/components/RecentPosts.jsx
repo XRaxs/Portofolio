@@ -20,7 +20,7 @@ const RecentPosts = () => {
 
     return (
         <section id="recent-posts" className="py-20">
-            <h2 className="font-bold text-[34px] text-start ml-[100px] mb-[80px]" data-aos="fade-up">
+            <h2 className="font-bold text-[34px] text-center md:text-start md:ml-[100px] mb-[80px]" data-aos="fade-up">
                 Recent Posts
             </h2>
             <div className="flex justify-center" data-aos="fade-up">
@@ -57,8 +57,8 @@ const RecentPosts = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex justify-center mt-28 gap-32">
-                <div className="cofee flex flex-col" data-aos="fade-in" data-aos-duration="1000">
+            <div className="hidden md:flex justify-center mt-28 md:gap-16 lg:gap-32">
+                <div className="flex flex-col" data-aos="fade-in" data-aos-duration="1000">
                     <img
                         src={Cofee}
                         alt="cangkir kopi"
@@ -66,7 +66,7 @@ const RecentPosts = () => {
                     />
                     <h2 className="font-semibold">Cup of Coffee</h2>
                 </div>
-                <div className="cofee flex flex-col" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="100">
+                <div className="flex flex-col" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="100">
                     <img
                         src={Vscode}
                         alt="cangkir kopi"
@@ -74,7 +74,7 @@ const RecentPosts = () => {
                     />
                     <h2 className="font-semibold">Vscode</h2>
                 </div>
-                <div className="cofee flex flex-col" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="200">
+                <div className="flex flex-col" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="200">
                     <img
                         src={Linkedin}
                         alt="cangkir kopi"
@@ -82,7 +82,7 @@ const RecentPosts = () => {
                     />
                     <h2 className="font-semibold">Linkedin</h2>
                 </div>
-                <div className="cofee flex flex-col" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="300">
+                <div className="flex flex-col" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="300">
                     <img
                         src={Ai}
                         alt="cangkir kopi"
@@ -90,7 +90,7 @@ const RecentPosts = () => {
                     />
                     <h2 className="font-semibold">Artificial Intelligence</h2>
                 </div>
-                <div className="cofee flex flex-col" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="400">
+                <div className="flex flex-col" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="400">
                     <img
                         src={Github}
                         alt="cangkir kopi"
